@@ -76,7 +76,6 @@ export const Dashboard = () => {
                 {/* Show the balance dynamically once fetched */}
                 <Balance value={balance !== null ? balance.toLocaleString() : "0"} />
                 <Users />
-
             </div>
         </div>
     );
